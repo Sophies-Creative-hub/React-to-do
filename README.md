@@ -62,7 +62,7 @@ To run the application locally, follow these steps:
    cd ../frontend
    npm start
    ```
-
+Ich bin hier
 ## Testing
 
 To run the tests for the frontend, navigate to the frontend directory and execute:
