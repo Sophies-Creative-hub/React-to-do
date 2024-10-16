@@ -66,7 +66,7 @@ To run the application locally, follow these steps:
 ## Testing
 
 To run the tests for the frontend, navigate to the frontend directory and execute:
-```bash
+```bash.
 cd frontend
 npm test
 ```
