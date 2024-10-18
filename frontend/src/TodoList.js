@@ -4,12 +4,11 @@ import TodoInput from './TodoInput';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const API_HOST = 'http://127.0.0.1';
-const API_PORT = '5000';
-const API_URL = `${API_HOST}:${API_PORT}/todos`;
+//const API_HOST = 'http://127.0.0.1';
+//const API_PORT = '5000';
+//const API_URL = `${API_HOST}:${API_PORT}/todos`;
 
-//const API_URL = 'https://j6vlg6tuly4rpyb3jyrl2bzota0keyld.lambda-url.eu-central-1.on.aws/';
-
+const API_URL = 'https://m34tiwhwhxpzhkv6ogbrnporvu0otnld.lambda-url.eu-central-1.on.aws/todos'
 function TodoList() {
   const [todos, setTodos] = useState([]);
 
